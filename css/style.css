@@ -1,0 +1,82 @@
+.container-fluid {
+  padding: 0;
+  margin: 0;
+}
+
+.flexN {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.animacion__hover a {
+  font-size: 20px;
+}
+
+.animacion a:hover {
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  font-size: 25px;
+}
+
+body {
+  font-size: 20px;
+  color: #000000;
+}
+
+.titulo {
+  text-align: center;
+}
+
+.titulo__centrado {
+  color: green;
+}
+
+.contenedor {
+  margin: 20px;
+  padding: 10px;
+  text-align: justify;
+}
+
+.imagenes__centrado {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.texto {
+  font-size: 40px;
+}
+
+.texto__grande {
+  text-align: center;
+  color: brown;
+}
+
+.bodyBg {
+  background-image: radial-gradient(white, pink, #e8ee95);
+}
+
+.fondoFooter {
+  background-color: white;
+}
+
+.footerPadding {
+  padding-left: 50px;
+}
+
+.footerPadding__centrado {
+  text-align: center;
+  padding-top: 20px;
+}
+
+.footer-redes {
+  color: pink;
+  font-size: 50px;
+}
+/*# sourceMappingURL=style.css.map */

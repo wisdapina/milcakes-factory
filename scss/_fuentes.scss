@@ -1,0 +1,36 @@
+$font-body: 20px;
+$font-color: #000000;
+$verde: green;
+$centro: center;
+body {
+    font-size: $font-body;
+    color: $font-color;
+}
+
+.titulo {
+    text-align: $centro;
+    &__centrado {
+        color: $verde;
+    }
+}
+
+.contenedor {
+    margin: 20px;
+    padding: 10px;
+    text-align: justify;
+}
+
+.imagenes {
+    &__centrado {
+        display: flex;
+        justify-content: $centro;
+    }
+}
+
+.texto {
+    font-size: 40px;
+    &__grande {
+        text-align: center;
+        color: brown;
+    }
+}

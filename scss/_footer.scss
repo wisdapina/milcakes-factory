@@ -1,0 +1,9 @@
+$fondoF: white;
+.footer {
+    background-color: $fondoF;
+    padding-left: 50px;
+    &__centrado {
+        text-align: $centro;
+        padding-top: 20px;
+    }
+}

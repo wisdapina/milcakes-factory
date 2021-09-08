@@ -1,0 +1,19 @@
+.container-fluid {
+    padding: 0;
+    margin: 0;
+}
+
+.flexN {
+    display: flex;
+    justify-content: space-around;
+}
+
+.nav {
+    &__hover a {
+        font-size: 20px;
+    }
+    a:hover {
+        transition: 0.5s;
+        font-size: 25px;
+    }
+}
