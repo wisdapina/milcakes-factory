@@ -55,17 +55,13 @@ body {
 }
 
 .footer {
-    background-color: white;
+    background-color: rgba(150, 123, 123, 0.616);
     padding-left: 50px;
 }
 
 .footer__centrado {
     text-align: center;
     padding-top: 20px;
-}
-
-.footer__end {
-    text-align: end;
 }
 
 .footer-redes {

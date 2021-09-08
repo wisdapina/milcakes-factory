@@ -1,12 +1,9 @@
-$fondoF: white;
+$fondoF: rgba(150, 123, 123, 0.616);
 .footer {
     background-color: $fondoF;
     padding-left: 50px;
     &__centrado {
         text-align: $centro;
         padding-top: 20px;
-    }
-    &__end {
-        text-align: end;
     }
 }
