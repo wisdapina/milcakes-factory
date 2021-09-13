@@ -1,0 +1,8 @@
+@mixin Titulos($color, $tamanio) {
+    color: $color;
+    font-size: $tamanio;
+}
+
+.footer-redes {
+    @include Titulos(rgb(34, 71, 36), 25px);
+}
